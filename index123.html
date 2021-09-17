@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <title>Название</title>
+</head>
+<!-- по умолчанию body блочный элемент, занимает 100% ширины родительского элемента html и имеет небольшой отступ margin по краям -->
+<body style="margin:0;">
+
+    <!-- этот блок будет тянуться по ширине окна -->
+    <div style="width:100%; background-color:#ccc; padding: 10px; height:120px;">
+        <!-- картинка обтекает текст слева -->
+        <img style="float:left; margin:10px; width:100px; height:100px;" src="image.png" alt="Описание картинки для скрин-ридеров и поисковиков" />
+        <!-- этот блок, как положено блочному элементу по умолчанию, займет всю оставшуюся ширину родительского элемента -->
+        <div style="background-color:#ddd; padding:10px;">Сайт</div>
+    </div>
+
+    <!-- этот блок будет ограничен по ширине и горизонтально выровнен по центру родительского элемента -->
+    <div style="max-width:800px; background-color:#ccc; margin: 0 auto; margin-top:20px; padding:10px;">
+        Меню
+        <style>
+            ul.hr li {
+                display: inline;
+            }
+        </style>
+        <ul class="hr">
+            <li><a href="https://kubsu.ru/ru/university">КубГУ</a></li>
+            <li><a href="https://kubsu.ru/ru/education" title="Список факультетов КубГУ">Образование</a></li>
+            <li><a href="https://kubsu.ru/ru/science" title="О науке КубГУ">Наука и инновации</a></li>
+            <li><a href="https://kubsu.ru/ru/abiturient" title="Информация для абитуриентов">Абитуриентам</a></li>
+            <li><a href="https://kubsu.ru/ru/studlife" title="Информация для студентов">Студентам</a></li>
+        </ul>
+    </div>
+
+    <div style="width:100px; background-color:#ccc; margin:50px; padding:50px;">
+        <span style="background-color:red;">
+            Контент
+        </span>
+        <ul>
+            <li><a href="https://kubsu.ru/ru/university" title="О КубГУ">Университет</a></li>
+            <li><a href="https://kubsu.ru/ru/education" title="Список факультетов КубГУ">Образование</a></li>
+            <li><a href="https://kubsu.ru/ru/science" title="О науке КубГУ">Наука и инновации</a></li>
+            <li><a href="https://kubsu.ru/ru/abiturient" title="Информация для абитуриентов">Абитуриентам</a></li>
+            <li><a href="https://kubsu.ru/ru/studlife" title="Информация для студентов">Студентам</a></li>
+        </ul>
+    </div>
+
+
+
+
+    <table>
+        <tr>
+            <th>Колонка 1</th>
+            <th>Колонка 2</th>
+        </tr>
+        <tr>
+            <td colspan="2">Ячейка 11 объединенная с 12</td>
+        </tr>
+        <tr>
+            <td>Ячейка 21</td>
+            <td>Ячейка 22</td>
+        </tr>
+    </table>
+
+
+
+    <h1>Пример формы HTML</h1>
+    <form action="/"
+          method="POST">
+        <label>
+            Имя:<br />
+            <input name="field-name-1"
+                   value="Введите Ваше Имя" />
+        </label><br />
+        <label>
+            email:<br />
+            <input name="field-email"
+                   value="Введите email"
+                   type="email" />
+        </label><br />
+        <label>
+            Дата рождения:<br />
+            <input name="field-date"
+                   value="ГГГГ-ММ-ДД"
+                   type="date" />
+        </label><br />
+        Пол:<br />
+        <label>
+            <input type="radio" checked="checked"
+                   name="radio-group-1" value="Значение1" />
+            Муж
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-1" value="Значение2" />
+            Жен
+        </label><br />
+        Число Конечностей:<br />
+        <label>
+            <input type="radio"
+                   name="radio-group-2" value="Значение1" />
+            0
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-2" value="Значение2" />
+            1
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-2" value="Значение3" />
+            2
+        </label>
+        <label>
+            <input type="radio"
+                   name="radio-group-2" value="Значение4" />
+            3
+        </label>
+        <label>
+            <input type="radio" checked="checked"
+                   name="radio-group-2" value="Значение5" />
+            4
+        </label><br />
+        <label>
+            Сверхспособности:
+            <br />
+            <select name="field-name-3[]"
+                    multiple="multiple">
+                <option value="Значение1">Бессмертие</option>
+                <option value="Значение2">Прохождение сквозь стены</option>
+                <option value="Значение3">Левитация</option>
+            </select>
+        </label><br />
+        <label>
+            Биография:<br />
+            <textarea name="field-name-2"></textarea>
+        </label><br />
+        С контрактом ознакомлен(а):<br />
+        <label>
+            <input type="checkbox"
+                   name="check-1" />
+            Подпись
+        </label><br />
+
+        <input type="submit" value="Отправить" />
+    </form>
+    <footer>
+        (C) Nikita Demyanenko
+    </footer>
+</body>
+
+
+</html>
