@@ -1,38 +1,39 @@
 #image {
-    /*лого*/ float: left;
+    /*Г«Г®ГЈГ®*/ float: left;
     margin-left: 100px;
     width: 100px;
     height: 100px;
 }
 
 #header {
-    /*шапка*/ background-color: #ccc;
+    /*ГёГ ГЇГЄГ */ background-color: #ccc;
     padding: 10px;
     height: 120px;
 }
 
 #norma {
-    /*размер*/ max-width:960px;
+    /*Г°Г Г§Г¬ГҐГ°*/ max-width:960px;
     margin: 0 auto;
 }
 
 #name {
-    /*название*/ margin-left: 200px;
+    /*Г­Г Г§ГўГ Г­ГЁГҐ*/ margin-left: 200px;
     margin-bottom: 80px;
     background-color: #ddd;
     padding: 10px;
 }
 
 #menu {
-    /*ссылки*/ меню width:500px;
+    /*Г±Г±Г»Г«ГЄГЁ*/
+    width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
-    padding: 50px;
+    padding: 10px;
 }
 
 #links {
-    /*ссылки*/ width:500px;
+    /*Г±Г±Г»Г«ГЄГЁ*/ width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -40,7 +41,7 @@
 }
 
 #table {
-    /*таблица*/ margin: 10px;
+    /*ГІГ ГЎГ«ГЁГ¶Г */ margin: 10px;
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -49,7 +50,7 @@
 }
 
 #forma {
-    /*форма*/ 
+    /*ГґГ®Г°Г¬Г */ 
     width:500px;
     margin: 10px;
     margin-left: 100px;
@@ -58,16 +59,16 @@
 }
 
 
-#nechet {/*нечётные ячейки*/ 
+#nechet {/*Г­ГҐГ·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/ 
     background-color: red;
 }
 
-#chet { /*чётные ячейки*/
+#chet { /*Г·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: seagreen;
 }
 
 #footer {
-    /*подвал*/ 
+    /*ГЇГ®Г¤ГўГ Г«*/ 
     background-color: #ddd;
     padding: 10px;
 }
