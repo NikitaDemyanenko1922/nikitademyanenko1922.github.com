@@ -33,7 +33,7 @@
 }
 
 #links {
-    /*ññûëêè*/ width:600px;
+    /*ññûëêè*/ width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -42,7 +42,7 @@
 
 #table {
     /*òàáëèöà*/ margin: 10px;
-    width: 600px;
+    width: 500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -51,7 +51,7 @@
 
 #forma {
     /*ôîðìà*/ 
-    width:600px;
+    width:500px;
     margin: 10px;
     margin-left: 100px;
     background-color: #ccc;
