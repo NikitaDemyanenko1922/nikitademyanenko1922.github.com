@@ -1,0 +1,78 @@
+#image { //лого
+	float: left; 
+	margin-left: 100px; 
+	width: 100px; 
+	height: 100px;
+}
+
+#header { //шапка
+    	background-color: #ccc; 
+	padding: 10px; 
+	height: 120px;
+}
+
+#norma { //размер
+    	max-width:960px; 
+	margin:0 auto;
+}
+
+#name {//название
+    	margin-left: 200px; 
+	margin-bottom: 80px; 
+	background-color: #ddd; 
+	padding: 10px; 
+}
+
+#menu {//ссылки меню
+    	width:500px; 
+	background-color:#ccc; 
+	margin:10px; 
+	margin-left: 100px; 
+	padding:50px;
+}
+
+#links {//ссылки
+    	width:500px; 
+	background-color:#ccc; 
+	margin:10px; margin-left: 
+	100px; 
+	padding:50px;
+}
+
+#table {//таблица
+    	margin: 10px; 
+	width:500px; 
+	background-color: #ccc; 
+	margin: 10px; 
+	margin-left: 100px; 
+	padding: 50px;
+}
+
+#table2 {//таблица
+    	border="1" 
+	width="500" 
+	cellpadding="3" 
+	cellspacing="0"
+}
+
+#forma {//форма
+	width:500px; 
+	margin: 10px; 
+	margin-left: 100px; 
+	background-color:#ccc; 
+	padding:50px;
+}
+
+
+#1 {//нечЄтные €чейки
+ 	background-color: red;
+}
+
+#0 {//чЄтные €чейки
+   	background-color: red;
+}
+
+#footer {//подвал
+	background-color: #ddd; 
+	padding: 10px;
+}
