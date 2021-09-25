@@ -63,11 +63,11 @@
 
 
 #nechet {/*нечётные ячейки*/ 
-    background-color: #c1b9f3c2;
+    background-color: red;
 }
 
 #chet { /*чётные ячейки*/
-    background-color: #c1b9f3c2;
+    background-color: seagreen;
 }
 
 #footer {
