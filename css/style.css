@@ -1,30 +1,30 @@
 #image {
-    /*лого*/ float: left;
+    /*Г«Г®ГЈГ®*/ float: left;
     margin-left: 100px;
     width: 100px;
     height: 100px;
 }
 
 #header {
-    /*шапка*/ background-color: #ccc;
+    /*ГёГ ГЇГЄГ */ background-color: #ccc;
     padding: 10px;
     height: 120px;
 }
 
 #norma {
-    /*размер*/ max-width:960px;
+    /*Г°Г Г§Г¬ГҐГ°*/ max-width:960px;
     margin: 0 auto;
 }
 
 #name {
-    /*название*/ margin-left: 200px;
+    /*Г­Г Г§ГўГ Г­ГЁГҐ*/ margin-left: 200px;
     margin-bottom: 80px;
     background-color: #ddd;
     padding: 10px;
 }
 
 #menu {
-    /*ссылки*/ меню width:500px;
+    /*Г±Г±Г»Г«ГЄГЁ*/ Г¬ГҐГ­Гѕ width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -32,7 +32,7 @@
 }
 
 #links {
-    /*ссылки*/ width:500px;
+    /*Г±Г±Г»Г«ГЄГЁ*/ width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -40,7 +40,7 @@
 }
 
 #table {
-    /*таблица*/ margin: 10px;
+    /*ГІГ ГЎГ«ГЁГ¶Г */ margin: 10px;
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -49,11 +49,11 @@
 }
 
 #table2 {
-    /*таблица*/ border="1" width="500" cellpadding="3" cellspacing="0"
+    /*ГІГ ГЎГ«ГЁГ¶Г */ border="1" width="500" cellpadding="3" cellspacing="0"
 }
 
 #forma {
-    /*форма*/ 
+    /*ГґГ®Г°Г¬Г */ 
     width:500px;
     margin: 10px;
     margin-left: 100px;
@@ -62,16 +62,16 @@
 }
 
 
-#1 {/*нечётные ячейки*/ 
+#nechet {/*РЅРµС‡С‘С‚РЅС‹Рµ СЏС‡РµР№РєРё*/ 
     background-color: red;
 }
 
-#0 { /*чётные ячейки*/
+#chet { /*С‡С‘С‚РЅС‹Рµ СЏС‡РµР№РєРё*/
     background-color: red;
 }
 
 #footer {
-    /*подвал*/ 
+    /*ГЇГ®Г¤ГўГ Г«*/ 
     background-color: #ddd;
     padding: 10px;
 }
