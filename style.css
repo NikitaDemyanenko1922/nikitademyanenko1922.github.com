@@ -25,7 +25,7 @@
 
 #menu {
     /*ññûëêè*/
-    width:400px;
+    width:500px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -33,7 +33,7 @@
 }
 
 #links {
-    /*ññûëêè*/ width:500px;
+    /*ññûëêè*/ width:600px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -42,7 +42,7 @@
 
 #table {
     /*òàáëèöà*/ margin: 10px;
-    width: 500px;
+    width: 600px;
     background-color: #ccc;
     margin: 10px;
     margin-left: 100px;
@@ -51,7 +51,7 @@
 
 #forma {
     /*ôîðìà*/ 
-    width:500px;
+    width:600px;
     margin: 10px;
     margin-left: 100px;
     background-color: #ccc;
