@@ -1,0 +1,139 @@
+/*#main-aside-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+    #main-aside-wrapper main, #main-aside-wrapper aside {
+        background-color: #ddd;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #main-aside-wrapper aside {
+        flex: 1;
+        order: 1;
+    }
+
+    #main-aside-wrapper main {
+        flex: 3;
+        order: 2;
+    }
+
+@media screen and (min-width: 800px) {
+    #main-aside-wrapper {
+        flex-direction: row;
+    }
+}*/
+
+#image {
+    /*лого*/ 
+    float: left;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+#header {
+    /*шапка*/ 
+    background-color: #ccc;
+    padding: 10px;
+    height: 120px;
+}
+
+#norma {
+    /*размер*/ 
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#name {
+    /*название*/ 
+    margin-left: 200px;
+    margin-bottom: 80px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#menu {
+    /*ссылки*/ 
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#links {
+    /*ссылки*/ 
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#table {
+    /*таблица*/ 
+    margin: 10px;
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#forma {
+    /*форма*/
+    width: 500px;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: #ccc;
+    padding: 50px;
+}
+
+
+#nechet { /*нечЄтные €чейки*/
+    background-color: red;
+}
+
+#chet { /*чЄтные €чейки*/
+    background-color: seagreen;
+}
+
+#footer {
+    /*подвал*/
+    background-color: #ddd;
+    padding: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    #header {
+        /*шапка*/
+        width: 100%;
+    }
+
+    #norma {
+        /*размер*/ 
+        max-width: 100%;
+    }
+
+    #menu { /*ссылки*/ 
+        width: 100%;
+    }
+
+    #links { /*ссылки*/ 
+        width: 100%;
+    }
+
+    #table { /*таблица*/
+        width: 100%;
+    }
+
+    #forma { /*форма*/
+        width: 100%;
+    }
+
+    #footer { /*подвал*/
+        width: 100%;
+    }
+}
