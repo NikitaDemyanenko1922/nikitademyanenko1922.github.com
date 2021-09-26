@@ -106,34 +106,41 @@
     padding: 10px;
 }
 
-/*@media screen and (min-width: 400px) {
+@media screen and (min-width: 400px) {
     #header {
-        /*øàïêà*/
+        /*шапка*/
         width: 100%;
+        margin-left: 0;
     }
 
     #norma {
-        /*ðàçìåð*/ 
+        /*размер*/ 
         max-width: 100%;
+        margin-left: 0;
     }
 
-    #menu { /*ññûëêè*/ 
+    #menu { /*ссылки*/ 
         width: 100%;
+        margin-left: 0;
     }
 
-    #links { /*ññûëêè*/ 
+    #links { /*ссылки*/ 
         width: 100%;
+        margin-left: 0;
     }
 
-    #table { /*òàáëèöà*/
+    #table { /*таблица*/
         width: 100%;
+        margin-left: 0;
     }
 
-    #forma { /*ôîðìà*/
+    #forma { /*форма*/
         width: 100%;
+        margin-left: 0;
     }
 
-    #footer { /*ïîäâàë*/
+    #footer { /*подвал*/
         width: 100%;
+        margin-left: 0;
     }
-}*/
+}
