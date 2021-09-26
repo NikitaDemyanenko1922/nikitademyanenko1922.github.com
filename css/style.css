@@ -26,7 +26,7 @@
 }*/
 
 #image {
-    /*лого*/ 
+    /*Г«Г®ГЈГ®*/ 
     float: left;
     margin-left: 100px;
     width: 100px;
@@ -34,20 +34,20 @@
 }
 
 #header {
-    /*шапка*/ 
+    /*ГёГ ГЇГЄГ */ 
     background-color: #ccc;
     padding: 10px;
     height: 120px;
 }
 
 #norma {
-    /*размер*/ 
+    /*Г°Г Г§Г¬ГҐГ°*/ 
     max-width: 960px;
     margin: 0 auto;
 }
 
 #name {
-    /*название*/ 
+    /*Г­Г Г§ГўГ Г­ГЁГҐ*/ 
     margin-left: 200px;
     margin-bottom: 80px;
     background-color: #ddd;
@@ -55,7 +55,7 @@
 }
 
 #menu {
-    /*ссылки*/ 
+    /*Г±Г±Г»Г«ГЄГЁ*/ 
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -64,7 +64,7 @@
 }
 
 #links {
-    /*ссылки*/ 
+    /*Г±Г±Г»Г«ГЄГЁ*/ 
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -73,7 +73,7 @@
 }
 
 #table {
-    /*таблица*/ 
+    /*ГІГ ГЎГ«ГЁГ¶Г */ 
     margin: 10px;
     width: 500px;
     background-color: #ccc;
@@ -83,7 +83,7 @@
 }
 
 #forma {
-    /*форма*/
+    /*ГґГ®Г°Г¬Г */
     width: 500px;
     margin: 10px;
     margin-left: 100px;
@@ -92,48 +92,48 @@
 }
 
 
-#nechet { /*нечётные ячейки*/
+#nechet { /*Г­ГҐГ·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: red;
 }
 
-#chet { /*чётные ячейки*/
+#chet { /*Г·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: seagreen;
 }
 
 #footer {
-    /*подвал*/
+    /*ГЇГ®Г¤ГўГ Г«*/
     background-color: #ddd;
     padding: 10px;
 }
 
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
     #header {
-        /*шапка*/
+        /*ГёГ ГЇГЄГ */
         width: 100%;
     }
 
     #norma {
-        /*размер*/ 
+        /*Г°Г Г§Г¬ГҐГ°*/ 
         max-width: 100%;
     }
 
-    #menu { /*ссылки*/ 
+    #menu { /*Г±Г±Г»Г«ГЄГЁ*/ 
         width: 100%;
     }
 
-    #links { /*ссылки*/ 
+    #links { /*Г±Г±Г»Г«ГЄГЁ*/ 
         width: 100%;
     }
 
-    #table { /*таблица*/
+    #table { /*ГІГ ГЎГ«ГЁГ¶Г */
         width: 100%;
     }
 
-    #forma { /*форма*/
+    #forma { /*ГґГ®Г°Г¬Г */
         width: 100%;
     }
 
-    #footer { /*подвал*/
+    #footer { /*ГЇГ®Г¤ГўГ Г«*/
         width: 100%;
     }
-}
+}*/
