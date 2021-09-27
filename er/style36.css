@@ -124,16 +124,17 @@
 
     #norma table1, #norma forma {
         }
-    #norma table1 {
-        flex: 2;
-        order: 2;
-    }
-
+    
     #norma forma {
         flex: 1;
         order: 1;
     }
-
+    
+    #norma table1 {
+        flex: 2;
+        order: 2;
+    }
+    
     #menu { /*ññûëêè*/
         width: 100%;
         margin-top: 5%;
