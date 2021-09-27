@@ -1,6 +1,6 @@
 
 #image {
-    /*лого*/ 
+    /*Г«Г®ГЈГ®*/ 
     float: left;
     margin-left: 100px;
     width: 100px;
@@ -8,20 +8,20 @@
 }
 
 #header {
-    /*шапка*/ 
+    /*ГёГ ГЇГЄГ */ 
     background-color: #ccc;
     padding: 10px;
     height: 120px;
 }
 
 #norma {
-    /*размер*/ 
+    /*Г°Г Г§Г¬ГҐГ°*/ 
     max-width: 960px;
     margin: 0 auto;
 }
 
 #name {
-    /*название*/ 
+    /*Г­Г Г§ГўГ Г­ГЁГҐ*/ 
     margin-left: 200px;
     margin-bottom: 80px;
     background-color: #ddd;
@@ -29,7 +29,7 @@
 }
 
 #menu {
-    /*ссылки*/ 
+    /*Г±Г±Г»Г«ГЄГЁ*/ 
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -38,7 +38,7 @@
 }
 
 #links {
-    /*ссылки*/ 
+    /*Г±Г±Г»Г«ГЄГЁ*/ 
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -47,7 +47,7 @@
 }
 
 #table {
-    /*таблица*/ 
+    /*ГІГ ГЎГ«ГЁГ¶Г */ 
     width: 500px;
     background-color: #ccc;
     margin: 10px;
@@ -56,7 +56,7 @@
 }
 
 #forma {
-    /*форма*/
+    /*ГґГ®Г°Г¬Г */
     width: 500px;
     margin: 10px;
     margin-left: 100px;
@@ -66,17 +66,17 @@
 
 
 #nechet { 
-    /*нечётные ячейки*/
+    /*Г­ГҐГ·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: red;
 }
 
 #chet { 
-    /*чётные ячейки*/
+    /*Г·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: seagreen;
 }
 
 #footer {
-    /*подвал*/
+    /*ГЇГ®Г¤ГўГ Г«*/
     background-color: #ddd;
     padding: 10px;
 }
@@ -85,17 +85,16 @@
     html {
         -webkit-text-size-adjust: none;
     }
-    #image { /*лого*/
+    #image { /*Г«Г®ГЈГ®*/
         float: left;
         margin-left: 0px;
         width: 100px;
         height: 100px;
     }
-    #name { /*название*/
+    #name { /*Г­Г Г§ГўГ Г­ГЁГҐ*/
         margin-left: 100px;
         margin-bottom: 80px;
         background-color: #ddd;
-        padding: 5%;
     }
     /*#nov {
         display: table;
@@ -108,14 +107,14 @@
     #forma {
         display: table-header-group;
     }*/
-    #header { /*шапка*/
+    #header { /*ГёГ ГЇГЄГ */
         width: 100%;
         margin: 5%;
         margin-left: 0;
         padding: 5%;
     }
 
-    #norma { /*размер*/
+    #norma { /*Г°Г Г§Г¬ГҐГ°*/
         max-width: 100%;
         margin: 0 auto;
         flex-direction: row;
@@ -132,7 +131,7 @@
         order: 1;
     }
 
-    #menu { /*ссылки*/
+    #menu { /*Г±Г±Г»Г«ГЄГЁ*/
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -140,7 +139,7 @@
         padding: 5%;
     }
 
-    #links { /*ссылки*/
+    #links { /*Г±Г±Г»Г«ГЄГЁ*/
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -148,7 +147,7 @@
         padding: 5%;
     }
 
-    #table { /*таблица*/
+    #table { /*ГІГ ГЎГ«ГЁГ¶Г */
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -156,7 +155,7 @@
         padding: 5%;
     }
 
-    #forma { /*форма*/
+    #forma { /*ГґГ®Г°Г¬Г */
         width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -164,7 +163,7 @@
         padding: 5%;
     }
 
-    #footer { /*подвал*/
+    #footer { /*ГЇГ®Г¤ГўГ Г«*/
         width: 100%;
         margin-top: 3%;
         margin-left: 0;
