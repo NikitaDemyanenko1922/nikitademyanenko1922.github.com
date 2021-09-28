@@ -1,0 +1,150 @@
+
+#image {
+    /*лого*/ 
+    float: left;
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+#header {
+    /*шапка*/ 
+    background-color: #ccc;
+    padding: 10px;
+    height: 120px;
+}
+
+#norma {
+    /*размер*/ 
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+#name {
+    /*название*/ 
+    margin-left: 200px;
+    margin-bottom: 80px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+#menu {
+    /*ссылки*/ 
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#links {
+    /*ссылки*/ 
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#table {
+    /*таблица*/ 
+    width: 500px;
+    background-color: #ccc;
+    margin: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
+
+#forma {
+    /*форма*/
+    width: 500px;
+    margin: 10px;
+    margin-left: 100px;
+    background-color: #ccc;
+    padding: 50px;
+}
+
+
+#nechet { 
+    /*нечЄтные €чейки*/
+    background-color: red;
+}
+
+#chet { 
+    /*чЄтные €чейки*/
+    background-color: seagreen;
+}
+
+#footer {
+    /*подвал*/
+    background-color: #ddd;
+    padding: 10px;
+}
+
+@media screen and (max-device-width: 480px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    #image { /*лого*/
+        float: left;
+        margin-left: 0px;
+        width: 100px;
+        height: 100px;
+    }
+    #name { /*название*/
+        margin-left: 30%;
+        margin-bottom: 10px;
+        background-color: #ddd;
+        padding: 2%;
+    }
+    #header { /*шапка*/
+        width: 100%;
+        margin: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    #norma { /*размер*/
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    #menu { /*ссылки*/
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    #links { /*ссылки*/
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    #table { /*таблица*/
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    #forma { /*форма*/
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+
+    #footer { /*подвал*/
+        width: 100%;
+        margin-top: 3%;
+        margin-left: 0;
+        padding: 3%;
+    }
+}

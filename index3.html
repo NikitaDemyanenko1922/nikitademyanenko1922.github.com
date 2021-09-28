@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+
+    <title>Задание 2</title>
+    <link rel="stylesheet" href="style3.css" />
+
+</head>
+
+<body>
+
+    <div id="header">
+
+        <header>
+            <div id="norma">
+                <img id="image" src="image3.png" alt="логотип" />
+                <div id="name">ЁжикИндивид</div>
+            </div>
+        </header>
+
+    </div>
+    <nav id="norma">
+        <div id="menu">
+            <style>
+                ul.hr li {
+                    display: inline;
+                }
+            </style>
+            <ul class="hr">
+
+                <li>
+                    <a href="#link">Список гиперссылок</a><a id="anchor"></a>
+                </li>
+                <li>
+                    <a href="#tab">Таблица</a><a id="anchor"></a>
+                </li>
+                <li>
+                    <a href="#form">Форма</a><a id="anchor"></a>
+                </li>
+            </ul>
+
+        </div>
+
+        <a id="link"></a>
+
+        <div id="links">
+
+            <ol>
+                <li>
+                    Абсолютная гиперссылка на главную страницу сайта example.com: <a href="http://example.com/">example.com</a>
+                </li>
+                <li>
+                    Абсолютная гиперссылка на главную страницу сайта example.com в протоколе https: <a href="https://example.com/">example.com</a>
+                </li>
+                <li>
+                    Ссылка на файл на сервере FTP без авторизации: <a href="ftp://example.com/file.txt">файл</a>
+                </li>
+                <li>
+                    Ссылка на файл на сервере FTP с авторизацией: <a href="ftp://user:password@example.com/file.txt">файл</a>
+                </li>
+                <li>
+                    Ссылка на фрагмент страницы некоторого сайта: <a href="" http: //www.example.com/page#about">фрагмент</a>
+                </li>
+                <li>
+                    Ссылка на фрагмент текущей страницы:
+                    <a name="top"></a>
+                    <a href="#top">6 пункт</a>
+                </li>
+                <li>
+                    Ссылка с двумя параметрами в URL: <a href="http://example.com?a&b">example.com</a>
+                </li>
+                <li>
+                    Список ссылок основной навигации сайта с подписями title:
+                    <ul>
+                        <li><a href="https://kubsu.ru/ru/university" title="О КубГУ">Университет</a></li>
+                        <li><a href="https://kubsu.ru/ru/education" title="Список факультетов КубГУ">Образование</a></li>
+                        <li><a href="https://kubsu.ru/ru/science" title="О науке КубГУ">Наука и инновации</a></li>
+                        <li><a href="https://kubsu.ru/ru/abiturient" title="Информация для абитуриентов">Абитуриентам</a></li>
+                        <li><a href="https://kubsu.ru/ru/studlife" title="Информация для студентов">Студентам</a></li>
+                    </ul>
+                </li>
+                <li>
+                    Ссылка без href: <a "http://example.com/">example.com</a>
+                </li>
+                <li>
+                    Ссылка с пустым href: <a href="">example.com</a>
+                </li>
+                <li>
+                    Ссылка, по которой запрещен переход поисковикам: <a href="https://example.com/" rel="nofollow">example.com</a>
+                </li>
+                <li>
+                    Ссылка, запрещенная для индексации поисковиками: <noindex>http://example.com/</noindex>
+                </li>
+                <li>
+                    Контекстная <a href="http://example.com/">ссылка</a> в тексте абзаца
+                </li>
+                <li>
+                    Ссылка-изображение: <p><a href="https://example.com/"><img src="image.jpg" width="300" height="100" alt="Картинка"></a></p>
+                </li>
+                <li>
+                    Ссылки из прямоугольных и круглых областей картинки (HTML-тег map): <p>
+                        <img src="image2.jpg" width="400" height="200" alt="Картинка" usemap="#figures">
+                        <map name="figures">
+                            <area shape="rect" coords="0,0,100,100" href="http://example.com/" alt="прямоугольник">
+                            <area shape="circle" coords="350,50,50" href="http://example.com/" alt="круг">
+                        </map>
+                    </p>
+                </li>
+                <li>Относительная ссылка на страницу в текущем каталоге: <a href="about">ссылка</a></li>
+                <li>Относительная ссылка на страницу в каталоге about: <a href="about/index.html">ссылка</a></li>
+                <li>Относительная ссылка на страницу в каталоге уровнем выше текущего: <a href="../index.html">ссылка</a></li>
+                <li>Относительная ссылка на страницу в каталоге двумя уровнями выше: <a href="../../index.html">ссылка</a></li>
+                <li>Сокращенная ссылка на главную: <a href="/">ссылка</a></li>
+                <li>Сокращенная ссылка внутреннюю: <a href="#documents">ссылка</a></li>
+            </ol>
+
+        </div>
+
+        <a id="tab"></a>
+        <div id="table">
+            <table border="1" width="500" cellpadding="3" cellspacing="0">
+                <caption><b>Название Таблицы</b></caption>
+                <tr id="nechet">
+                    <th>Колонка 1</th>
+                    <th>Колонка 2</th>
+                    <th>Колонка 3</th>
+                    <th>Колонка 4</th>
+                    <th>Колонка 5</th>
+                </tr>
+                <tr id="chet">
+                    <td colspan="2">Ячейка 11 - 12</td>
+                    <td>Ячейка 13</td>
+                    <td>Ячейка 14</td>
+                    <td>Ячейка 15</td>
+                </tr>
+                <tr id="nechet">
+                    <td>Ячейка 21</td>
+                    <td colspan="2">Ячейка 22 - 23</td>
+                    <td>Ячейка 24</td>
+                    <td>Ячейка 25</td>
+                </tr>
+                <tr id="chet">
+                    <td>Ячейка 31</td>
+                    <td>Ячейка 32</td>
+                    <td colspan="2">Ячейка 33 - 34</td>
+                    <td>Ячейка 35</td>
+                </tr>
+                <tr id="nechet">
+                    <td>Ячейка 41</td>
+                    <td>Ячейка 42</td>
+                    <td>Ячейка 43</td>
+                    <td colspan="2">Ячейка 44 - 45</td>
+                </tr>
+                <tr id="chet">
+                    <td>Ячейка 51</td>
+                    <td>Ячейка 52</td>
+                    <td>Ячейка 53</td>
+                    <td>Ячейка 54</td>
+                    <td>Ячейка 55</td>
+                </tr>
+
+            </table>
+        </div>
+
+        <a id="form"></a>
+
+        <div id="forma">
+
+            <form action="/"
+                  method="POST">
+
+                <label>
+                    Имя:<br />
+                    <input name="field-name-1"
+                           value="Введите Ваше Имя" />
+                </label><br />
+
+                <label>
+                    email:<br />
+                    <input name="field-email"
+                           value="Введите email"
+                           type="email" />
+                </label><br />
+
+                <label>
+                    Дата рождения:<br />
+                    <input name="field-date"
+                           value="ГГГГ-ММ-ДД"
+                           type="date" />
+                </label><br />
+
+                Пол:<br />
+                <label>
+                    <input type="radio" checked="checked"
+                           name="radio-group-1" value="Значение1" />
+                    Муж
+                </label>
+                <label>
+                    <input type="radio"
+                           name="radio-group-1" value="Значение2" />
+                    Жен
+                </label><br />
+
+                Число Конечностей:<br />
+                <label>
+                    <input type="radio"
+                           name="radio-group-2" value="Значение1" />
+                    0
+                </label>
+                <label>
+                    <input type="radio"
+                           name="radio-group-2" value="Значение2" />
+                    1
+                </label>
+                <label>
+                    <input type="radio"
+                           name="radio-group-2" value="Значение3" />
+                    2
+                </label>
+                <label>
+                    <input type="radio"
+                           name="radio-group-2" value="Значение4" />
+                    3
+                </label>
+                <label>
+                    <input type="radio" checked="checked"
+                           name="radio-group-2" value="Значение5" />
+                    4
+                </label><br />
+
+                <label>
+                    Сверхспособности:
+                    <br />
+                    <select name="field-name-3[]"
+                            multiple="multiple">
+                        <option value="Значение1">Бессмертие</option>
+                        <option value="Значение2">Прохождение сквозь стены</option>
+                        <option value="Значение3">Левитация</option>
+                    </select>
+                </label><br />
+
+                <label>
+                    Биография:<br />
+                    <textarea name="field-name-2"></textarea>
+                </label><br />
+
+                С контрактом ознакомлен(а):<br />
+                <label>
+                    <input type="checkbox"
+                           name="check-1" />
+                    Подпись
+                </label><br />
+
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>
+    </nav>
+    <footer>
+        <div id="footer"> (C) Nikita Demyanenko 2021 </div>
+    </footer>
+</body>
+
+</html>
