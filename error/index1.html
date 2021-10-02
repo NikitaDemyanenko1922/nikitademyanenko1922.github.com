@@ -3,13 +3,10 @@
 <head>
     <meta charset="utf-8">
     <title>Тег audio</title>
-    <bgsound src="music.mp3" loop="-1"></bgsound>
 </head>
 <body>
-    <embed src="music.mp3" width="300" height="100" align="left" autostart="True" loop="True">
-    <p>Аудио в HTML 5</p>
     <audio controls>
-        <source src="music.ogg" type="audio/ogg; codecs=vorbis" controls="controls">
+        <source src="music.ogg" type="audio/ogg; autostart="autostart" codecs=vorbis" controls="controls">
         Тег audio не поддерживается вашим браузером.
     </audio>
 </body>
