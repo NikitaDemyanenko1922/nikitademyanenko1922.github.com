@@ -1,0 +1,94 @@
+#header {
+    /*шапка*/
+    background-color: #ccc;
+    height: 120px;
+}
+
+#name {
+    /*название*/ 
+    background-color: #ddd;
+}
+
+#menu {
+    background-color: #ccc;
+    margin: 10px;
+}
+
+#links {
+    /*ссылки*/
+    background-color: #ccc;
+    margin: 10px;
+}
+
+#table {
+    /*таблица*/ 
+    background-color: #ccc;
+    margin: 10px;
+}
+
+#forma {
+    /*форма*/
+    margin: 10px;
+    background-color: #ccc;
+}
+
+
+#nechet { 
+    /*нечЄтные €чейки*/
+    background-color: red;
+}
+
+#chet { 
+    /*чЄтные €чейки*/
+    background-color: seagreen;
+}
+
+#footer {
+    /*подвал*/
+    background-color: #ddd;
+    padding: 10px;
+}
+
+@media screen and (max-device-width: 480px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    #image { /*лого*/
+        float: left;
+        width: 100px;
+        height: 100px;
+    }
+    #name { /*название*/
+        background-color: #ddd;
+        padding: 2%;
+    }
+    #header { /*шапка*/
+        width: 100%;
+        padding: 3%;
+    }
+
+    #menu { /*ссылки*/
+        width: 100%;
+        padding: 3%;
+    }
+
+    #links { /*ссылки*/
+        width: 100%;
+        padding: 3%;
+    }
+
+    #table { /*таблица*/
+        width: 100%;
+        padding: 3%;
+    }
+
+    #forma { /*форма*/
+        width: 100%;
+        padding: 3%;
+    }
+
+    #footer { /*подвал*/
+        width: 100%;
+        padding: 3%;
+    }
+}
