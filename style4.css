@@ -1,11 +1,11 @@
 #header {
-    /*шапка*/
+    /*ГёГ ГЇГЄГ */
     background-color: #ccc;
     height: 120px;
 }
 
 #name {
-    /*название*/ 
+    /*Г­Г Г§ГўГ Г­ГЁГҐ*/ 
     background-color: #ddd;
 }
 
@@ -15,36 +15,36 @@
 }
 
 #links {
-    /*ссылки*/
+    /*Г±Г±Г»Г«ГЄГЁ*/
     background-color: #ccc;
     margin: 10px;
 }
 
 #table {
-    /*таблица*/ 
+    /*ГІГ ГЎГ«ГЁГ¶Г */ 
     background-color: #ccc;
     margin: 10px;
 }
 
 #forma {
-    /*форма*/
+    /*ГґГ®Г°Г¬Г */
     margin: 10px;
     background-color: #ccc;
 }
 
 
 #nechet { 
-    /*нечётные ячейки*/
+    /*Г­ГҐГ·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: red;
 }
 
 #chet { 
-    /*чётные ячейки*/
+    /*Г·ВёГІГ­Г»ГҐ ГїГ·ГҐГ©ГЄГЁ*/
     background-color: seagreen;
 }
 
 #footer {
-    /*подвал*/
+    /*ГЇГ®Г¤ГўГ Г«*/
     background-color: #ddd;
     padding: 10px;
 }
@@ -53,41 +53,41 @@
     html {
         -webkit-text-size-adjust: none;
     }
-    #image { /*лого*/
+    #image { /*Г«Г®ГЈГ®*/
         float: left;
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
     }
-    #name { /*название*/
+    #name { /*Г­Г Г§ГўГ Г­ГЁГҐ*/
         background-color: #ddd;
         padding: 2%;
     }
-    #header { /*шапка*/
+    #header { /*ГёГ ГЇГЄГ */
         width: 100%;
         padding: 3%;
     }
 
-    #menu { /*ссылки*/
+    #menu { /*Г±Г±Г»Г«ГЄГЁ*/
         width: 100%;
         padding: 3%;
     }
 
-    #links { /*ссылки*/
+    #links { /*Г±Г±Г»Г«ГЄГЁ*/
         width: 100%;
         padding: 3%;
     }
 
-    #table { /*таблица*/
+    #table { /*ГІГ ГЎГ«ГЁГ¶Г */
         width: 100%;
         padding: 3%;
     }
 
-    #forma { /*форма*/
+    #forma { /*ГґГ®Г°Г¬Г */
         width: 100%;
         padding: 3%;
     }
 
-    #footer { /*подвал*/
+    #footer { /*ГЇГ®Г¤ГўГ Г«*/
         width: 100%;
         padding: 3%;
     }
