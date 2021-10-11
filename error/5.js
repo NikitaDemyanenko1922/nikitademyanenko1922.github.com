@@ -1,13 +1,12 @@
-
  function raschitat(){
     let re = /^\d+$/;
     let price = document.getElementById("price");
     let quantity = document.getElementById("quantity");
     let r = document.getElementById("result");
     if(re.test(price.value) && re.test(quantity.value)){
-        alert(r.innerHTML = "Стоимость заказа: " + parseFloat(price.value) * parseFloat(quantity.value) + " руб.");
+        alert(r.innerHTML = "РЎС‚РѕРёРјРѕСЃС‚СЊ Р·Р°РєР°Р·Р°: " + parseFloat(price.value) * parseFloat(quantity.value) + " СЂСѓР±.");
     } else{
-        alert(r.innerHTML = "Введите корректные данные");
+        alert(r.innerHTML = "Р’РІРµРґРёС‚Рµ РєРѕСЂСЂРµРєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ");
     }
     return false;
   }
