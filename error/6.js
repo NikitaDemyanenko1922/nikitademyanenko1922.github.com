@@ -15,13 +15,13 @@ function getPriceOptions(quantity, type, option) {
 	} else {
 		switch (option) {
 			case "1":
-				result.innerHTML = ((type + 300) * quantity) + " рублей";
+				result.innerHTML = ((type + 200) * quantity) + " рублей";
 				break;
 			case "2":
-				result.innerHTML = ((type + 320) * quantity) + " рублей";
+				result.innerHTML = ((type + 300) * quantity) + " рублей";
 				break;
 			case "3":
-				result.innerHTML = ((type + 370) * quantity) + " рублей";
+				result.innerHTML = ((type + 350) * quantity) + " рублей";
 				break;
 		}
 	}
@@ -56,7 +56,7 @@ window.addEventListener('DOMContentLoaded', function(event) {
             } 
             else if(!f2 && !f3)
             {
-                result.innerHTML = (type + 245) * quantity;
+                result.innerHTML = (type + 100) * quantity;
                 f2 = true;
 		        f3 = true;
             } 
@@ -111,7 +111,7 @@ window.addEventListener('DOMContentLoaded', function(event) {
           	{
 		        if (event.target.checked && quantity != 0) 
             	{
-			        result.innerHTML = (type + 154) * quantity + " рублей";
+			        result.innerHTML = (type + 255) * quantity + " рублей";
               		f2 = false;
 					f3 = false;
 		        } 
