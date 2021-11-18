@@ -65,7 +65,7 @@ let modal = {
             }
             return response;
         })
-        .then((response)=>{alert("Форма отправлена!:)");
+        .then((response)=>{alert("Форма отправлена");
             console.log(response.text());})
         .catch((error)=>{alert("Ошибка!");
             console.log(error);});
