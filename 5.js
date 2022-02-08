@@ -10,3 +10,8 @@ function calculate(){
     }
     return false;
   }
+
+  window.addEventListener('DOMContentLoaded', function (_event) {
+    console.log("DOM fully loaded and parsed");
+    document.getElementById("my-button").addEventListener("click", calculate);
+  });
