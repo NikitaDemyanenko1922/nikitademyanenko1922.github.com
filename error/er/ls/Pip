@@ -53,3 +53,39 @@ int main()
 	cout << "Time: " << end - start << endl;
 	system("pause");
 }
+
+#include "stdafx.h"
+#include "iostream"
+#include "omp.h"
+
+using namespace std;
+
+int main()
+{
+	int a, b;
+	cout << "Ot: ";
+	cin >> a;
+	cout << "Do: ";
+	cin >> b;
+	int n = 1000;
+	double h = (double)b*1/n;
+	double sum = 0.0, x;
+	int i;
+#pragma omp parallel num_threads(4) private(i, x) shared(a, b, n, h, sum)
+	{
+		double lsum = 0;
+#pragma omp for
+		for (i = 1; i <= n; i++)
+		{
+			x = (double)(i - 0.5)*h;
+			if (x >= a)
+			{
+				lsum = (double)4 / (1 + x*x);
+#pragma omp atomic
+				sum += lsum;
+			}
+		}
+		cout << h*sum << endl;
+	}
+	system("pause");
+}
