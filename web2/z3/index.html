@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+
+<head>
+    <title>Задание 3</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+        <div id="form">
+            <h1>Форма</h1>
+            <form action="/"
+                  method="POST">
+
+                <label>
+                    Имя:<br />
+                    <input name="field-name-1"
+                           value="Введите Ваше Имя" />
+                </label><br />
+
+                <label>
+                    email:<br />
+                    <input name="field-email"
+                           value="Введите email"
+                           type="email" />
+                </label><br />
+
+                <label>
+                    Дата рождения:<br />
+                    <input name="field-date"
+                           value="ГГГГ-ММ-ДД"
+                           type="date" />
+                </label><br />
+
+                Пол:<br />
+                <label>
+                    <input type="radio" checked="checked"
+                           name="radio-group-1" value="Значение1" />
+                    Муж
+                </label>
+                <label>
+                    <input type="radio"
+                           name="radio-group-1" value="Значение2" />
+                    Жен
+                </label><br />
+
+                Число Конечностей:<br />
+                <label>
+                    <input type="radio" name="radio-group-2" value="Значение1" />0
+                </label>
+                <label>
+                    <input type="radio" name="radio-group-2" value="Значение2" />1
+                </label>
+                <label>
+                    <input type="radio" name="radio-group-2" value="Значение3" />2
+                </label>
+                <label>
+                    <input type="radio" name="radio-group-2" value="Значение4" />3
+                </label>
+                <label>
+                    <input type="radio" checked="checked" name="radio-group-2" value="Значение5" />4
+                </label><br />
+
+                <label>
+                    Сверхспособности:
+                    <br />
+                    <select name="field-name-3[]"
+                            multiple="multiple">
+                        <option value="Значение1">Бессмертие</option>
+                        <option value="Значение2">Прохождение сквозь стены</option>
+                        <option value="Значение3">Левитация</option>
+                    </select>
+                </label><br />
+
+                <label>
+                    Биография:<br />
+                    <textarea name="field-name-2"></textarea>
+                </label><br />
+
+                С контрактом ознакомлен(а):<br />
+                <label>
+                    <input type="checkbox"
+                           name="check-1" />
+                    Подпись
+                </label><br />
+
+                <input type="submit" value="Отправить" />
+            </form>
+        </div>
+</body>
+</html>
