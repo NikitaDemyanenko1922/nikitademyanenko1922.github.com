@@ -11,7 +11,7 @@
 
 <?php
 if (!empty($messages)) {
-  print(<div id="messages">);
+  print('<div id="messages">');
   // Выводим все сообщения. 
   foreach ($messages as $message) {
     print($message);
