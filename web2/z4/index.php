@@ -30,7 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $errors['email'] = !empty($_COOKIE['email_error']);
   $errors['date'] = !empty($_COOKIE['date_error']);
   $errors['biography'] = !empty($_COOKIE['biography_error']);
-  $errors['check-1'] = !empty($_COOKIE['check-1_error']);
   // TODO: аналогично все поля.
 
   // Выдаем сообщения об ошибках.
@@ -51,10 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   if ($errors['biography']) {
     setcookie('biography_error', '', 100000);
     $messages[] = '<div class="error">Заполните биографию.</div>';
-  }
-  if ($errors['check-1']) {
-    setcookie('check-1_error', '', 100000);
-    $messages[] = '<div class="error">Поставьте подпись.</div>';
   }
   // TODO: тут выдать сообщения об ошибках в других полях.
 
