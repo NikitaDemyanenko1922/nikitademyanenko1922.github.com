@@ -9,7 +9,7 @@
     <input type="submit" name="ок" value="Отправить форму" />
 </form>
 <?php
-if ( $_POST['my_bloggood-ru'] == '')
+if ( $_POST['my_bloggood-ru'] == ' ')
 {
 echo 'не отмечено';
 }
