@@ -9,6 +9,7 @@
     <input type="submit" name="ок" value="Отправить форму" />
 </form>
 <?php
+print_r($_POST);
 if ( empty($_POST['my_bloggood-ru']))
 {
 echo 'не отмечено';
