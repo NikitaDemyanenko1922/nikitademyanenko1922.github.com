@@ -43,6 +43,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     setcookie('email_error', '', 100000);
     $messages[] = '<div class="error">Заполните email.</div>';
   }
+  if ($errors['data']) {
+    setcookie('data_error', '', 100000);
+    $messages[] = '<div class="error">Заполните дата.</div>';
+  }
+  if ($errors['bio']) {
+    setcookie('bio_error', '', 100000);
+    $messages[] = '<div class="error">Заполните биография.</div>';
+  }
   // TODO: тут выдать сообщения об ошибках в других полях.
 
   // Складываем предыдущие значения полей в массив, если есть.
@@ -78,6 +86,20 @@ else {
   else {
     setcookie('email_value', $_POST['email'], time() + 30 * 24 * 60 * 60);
   }
+  if (empty($_POST['data'])) {
+    setcookie('data_error', '1', time() + 24 * 60 * 60);
+    $errors = TRUE;
+  }
+  else {
+    setcookie('data_value', $_POST['data'], time() + 30 * 24 * 60 * 60);
+  }
+  if (empty($_POST['bio'])) {
+    setcookie('bio_error', '1', time() + 24 * 60 * 60);
+    $errors = TRUE;
+  }
+  else {
+    setcookie('bio_value', $_POST['bio'], time() + 30 * 24 * 60 * 60);
+  }
 
 // *************
 // TODO: тут необходимо проверить правильность заполнения всех остальных полей.
@@ -93,6 +115,8 @@ else {
     // Удаляем Cookies с признаками ошибок.
     setcookie('fio_error', '', 100000);
     setcookie('email_error', '', 100000);
+    setcookie('data_error', '', 100000);
+    setcookie('bio_error', '', 100000);
     // TODO: тут необходимо удалить остальные Cookies.
   }
 
