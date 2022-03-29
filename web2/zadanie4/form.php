@@ -27,7 +27,7 @@ if (!empty($messages)) {
       <input name="fio" <?php if ($errors['fio']) {print 'class="error"';} ?> value="<?php print $values['fio']; ?>" />
       <input name="email" <?php if ($errors['email']) {print 'class="error"';} ?> value="<?php print $values['email']; ?>" />
       <input name="data" <?php if ($errors['data']) {print 'class="data"';} ?> value="<?php print $values['data']; ?>" />
-      <input name="biography" <?php if ($errors['biography']) {print 'class="error"';} ?> value="<?php print $values['biography']; ?>" />
+      <input name="bio" <?php if ($errors['bio']) {print 'class="error"';} ?> value="<?php print $values['bio']; ?>" />
       <input type="submit" value="ok" />
     </form>
   </body>
