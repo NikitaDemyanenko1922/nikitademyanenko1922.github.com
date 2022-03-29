@@ -26,7 +26,7 @@ if (!empty($messages)) {
     <form action="" method="POST">
       <label>Имя: <input name="fio" <?php if ($errors['fio']) {print 'class="error"';} ?> value="<?php print $values['fio']; ?>" /></label><br />
       <label>Email: <input name="email" <?php if ($errors['email']) {print 'class="error"';} ?> value="<?php print $values['email']; ?>" /></label><br />
-      <label>Дата: <input name="data" <?php if ($errors['data']) {print 'class="data"';} ?> value="<?php print $values['data']; ?>" /></label><br />
+      <label>Дата: <input name="data" <?php if ($errors['data']) {print 'class="error"';} ?> value="<?php print $values['data']; ?>" /></label><br />
       <label>Биография: <input name="bio" <?php if ($errors['bio']) {print 'class="error"';} ?> value="<?php print $values['bio']; ?>" /></label><br />
       <label>Подпись: <input type="submit" value="ok" />
     </form>
