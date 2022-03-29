@@ -64,6 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $values['email'] = empty($_COOKIE['email_value']) ? '' : $_COOKIE['email_value'];
   $values['date'] = empty($_COOKIE['date_value']) ? '' : $_COOKIE['date_value'];
   $values['bio'] = empty($_COOKIE['bio_value']) ? '' : $_COOKIE['bio_value'];
+  $values['check'] = empty($_COOKIE['check_value']) ? '' : $_COOKIE['check_value'];
   // TODO: аналогично все поля.
 
   // Включаем содержимое файла form.php.
@@ -105,6 +106,13 @@ else {
   else {
     setcookie('bio_value', $_POST['bio'], time() + 30 * 24 * 60 * 60);
   }
+  if (empty($_POST['check'])) {
+    setcookie('check_error', '1', time() + 24 * 60 * 60);
+    $errors = TRUE;
+  }
+  else {
+    setcookie('check_value', $_POST['check'], time() + 30 * 24 * 60 * 60);
+  }
 
 // *************
 // TODO: тут необходимо проверить правильность заполнения всех остальных полей.
@@ -122,6 +130,7 @@ else {
     setcookie('email_error', '', 100000);
     setcookie('date_error', '', 100000);
     setcookie('bio_error', '', 100000);
+    setcookie('check_error', '', 100000);
     // TODO: тут необходимо удалить остальные Cookies.
   }
 
