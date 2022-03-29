@@ -45,11 +45,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   }
   if ($errors['data']) {
     setcookie('data_error', '', 100000);
-    $messages[] = '<div class="error">Заполните дата.</div>';
+    $messages[] = '<div class="error">Заполните дату.</div>';
   }
   if ($errors['bio']) {
     setcookie('bio_error', '', 100000);
-    $messages[] = '<div class="error">Заполните биография.</div>';
+    $messages[] = '<div class="error">Заполните биографию.</div>';
   }
   // TODO: тут выдать сообщения об ошибках в других полях.
 
