@@ -83,35 +83,35 @@ else {
   }
   else {
     // Сохраняем ранее введенное в форму значение на месяц.
-    setcookie('fio_value', $_POST['fio'], time() + 30 * 24 * 60 * 60);
+    setcookie('fio_value', $_POST['fio'], time() + 365 * 24 * 60 * 60);
   }
   if (empty($_POST['email'])) {
     setcookie('email_error', '1', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
   else {
-    setcookie('email_value', $_POST['email'], time() + 30 * 24 * 60 * 60);
+    setcookie('email_value', $_POST['email'], time() + 365 * 24 * 60 * 60);
   }
   if (empty($_POST['date'])) {
     setcookie('date_error', '1', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
   else {
-    setcookie('date_value', $_POST['date'], time() + 30 * 24 * 60 * 60);
+    setcookie('date_value', $_POST['date'], time() + 365 * 24 * 60 * 60);
   }
   if (empty($_POST['bio'])) {
     setcookie('bio_error', '1', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
   else {
-    setcookie('bio_value', $_POST['bio'], time() + 30 * 24 * 60 * 60);
+    setcookie('bio_value', $_POST['bio'], time() + 365 * 24 * 60 * 60);
   }
   if (empty($_POST['check'])) {
     setcookie('check_error', '1', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
   else {
-    setcookie('check_value', $_POST['check'], time() + 30 * 24 * 60 * 60);
+    setcookie('check_value', $_POST['check'], time() + 365 * 24 * 60 * 60);
   }
 
 // *************
