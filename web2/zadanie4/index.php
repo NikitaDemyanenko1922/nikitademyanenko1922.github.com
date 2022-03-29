@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $errors = array();
   $errors['fio'] = !empty($_COOKIE['fio_error']);
   $errors['email'] = !empty($_COOKIE['email_error']);
-  $errors['data'] = !empty($_COOKIE['data_error']);
+  $errors['date'] = !empty($_COOKIE['date_error']);
   $errors['bio'] = !empty($_COOKIE['bio_error']);
   // TODO: аналогично все поля.
 
@@ -43,8 +43,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
     setcookie('email_error', '', 100000);
     $messages[] = '<div class="error">Заполните email.</div>';
   }
-  if ($errors['data']) {
-    setcookie('data_error', '', 100000);
+  if ($errors['date']) {
+    setcookie('date_error', '', 100000);
     $messages[] = '<div class="error">Заполните дату.</div>';
   }
   if ($errors['bio']) {
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $values = array();
   $values['fio'] = empty($_COOKIE['fio_value']) ? '' : $_COOKIE['fio_value'];
   $values['email'] = empty($_COOKIE['email_value']) ? '' : $_COOKIE['email_value'];
-  $values['data'] = empty($_COOKIE['data_value']) ? '' : $_COOKIE['data_value'];
+  $values['date'] = empty($_COOKIE['date_value']) ? '' : $_COOKIE['date_value'];
   $values['bio'] = empty($_COOKIE['bio_value']) ? '' : $_COOKIE['bio_value'];
   // TODO: аналогично все поля.
 
@@ -86,12 +86,12 @@ else {
   else {
     setcookie('email_value', $_POST['email'], time() + 30 * 24 * 60 * 60);
   }
-  if (empty($_POST['data'])) {
-    setcookie('data_error', '1', time() + 24 * 60 * 60);
+  if (empty($_POST['date'])) {
+    setcookie('date_error', '1', time() + 24 * 60 * 60);
     $errors = TRUE;
   }
   else {
-    setcookie('data_value', $_POST['data'], time() + 30 * 24 * 60 * 60);
+    setcookie('date_value', $_POST['date'], time() + 30 * 24 * 60 * 60);
   }
   if (empty($_POST['bio'])) {
     setcookie('bio_error', '1', time() + 24 * 60 * 60);
@@ -115,7 +115,7 @@ else {
     // Удаляем Cookies с признаками ошибок.
     setcookie('fio_error', '', 100000);
     setcookie('email_error', '', 100000);
-    setcookie('data_error', '', 100000);
+    setcookie('date_error', '', 100000);
     setcookie('bio_error', '', 100000);
     // TODO: тут необходимо удалить остальные Cookies.
   }
