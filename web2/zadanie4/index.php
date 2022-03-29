@@ -27,7 +27,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   // Складываем признак ошибок в массив.
   $errors = array();
   $errors['fio'] = !empty($_COOKIE['fio_error']);
-  $errors['email'] = !empty($_COOKIE['amail_error']);
+  $errors['email'] = !empty($_COOKIE['email_error']);
+  $errors['data'] = !empty($_COOKIE['data_error']);
+  $errors['bio'] = !empty($_COOKIE['bio_error']);
   // TODO: аналогично все поля.
 
   // Выдаем сообщения об ошибках.
@@ -47,6 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $values = array();
   $values['fio'] = empty($_COOKIE['fio_value']) ? '' : $_COOKIE['fio_value'];
   $values['email'] = empty($_COOKIE['email_value']) ? '' : $_COOKIE['email_value'];
+  $values['data'] = empty($_COOKIE['data_value']) ? '' : $_COOKIE['data_value'];
+  $values['bio'] = empty($_COOKIE['bio_value']) ? '' : $_COOKIE['bio_value'];
   // TODO: аналогично все поля.
 
   // Включаем содержимое файла form.php.
