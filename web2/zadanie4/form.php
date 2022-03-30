@@ -28,7 +28,7 @@ if (!empty($messages)) {
       <label>Email:     <input name="email" type="email" <?php if ($errors['email']) {print 'class="error"';} ?> value="<?php print $values['email']; ?>" /></label><br />
       <label>Дата:      <input name="date" type="date" <?php if ($errors['date']) {print 'class="error"';} ?> value="<?php print $values['date']; ?>" /></label><br />
       <label>Биография: <textarea name="bio" <?php if ($errors['bio']) {print 'class="error"';} ?> value="<?php print $values['bio']; ?>" /></textarea></label><br />
-      <label>Подпись:   <input type="checkbox" name="check" <?php if ($errors['check']) {print 'class="error"';} ?> value="<?php print $values['check']; ?>" /></label><br />
+      <label>Подпись:   <input type="checkbox" name="check" /></label><br />
       <label>Отправить форму: <input type="submit" value="ok" />
     </form>
   </body>
