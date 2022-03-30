@@ -30,7 +30,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $errors['email'] = !empty($_COOKIE['email_error']);
   $errors['date'] = !empty($_COOKIE['date_error']);
   $errors['bio'] = !empty($_COOKIE['bio_error']);
-  $errors['check'] = !empty($_COOKIE['my_bloggood-ru']);
   // TODO: аналогично все поля.
 
   // Выдаем сообщения об ошибках.
@@ -51,10 +50,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   if ($errors['bio']) {
     setcookie('bio_error', '', 100000);
     $messages[] = '<div class="error">Заполните биографию.</div>';
-  }
-    if ($errors['check']) {
-    setcookie('check_error', '', 100000);
-    $messages[] = '<div class="error">Поставьте подпись.</div>';
   }
   // TODO: тут выдать сообщения об ошибках в других полях.
 
@@ -129,8 +124,7 @@ else {
     setcookie('fio_error', '', 100000);
     setcookie('email_error', '', 100000);
     setcookie('date_error', '', 100000);
-    setcookie('bio_error', '', 100000);
-    setcookie('check_error', '', 100000);
+    setcookie('bio_error', '', 100000);;
     // TODO: тут необходимо удалить остальные Cookies.
   }
 
