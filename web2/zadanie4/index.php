@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   $errors['email'] = !empty($_COOKIE['email_error']);
   $errors['date'] = !empty($_COOKIE['date_error']);
   $errors['bio'] = !empty($_COOKIE['bio_error']);
-  $errors['check'] = !empty($_POST['my_bloggood-ru']);
+  $errors['check'] = empty($_POST['my_bloggood-ru']);
   // TODO: аналогично все поля.
 
   // Выдаем сообщения об ошибках.
