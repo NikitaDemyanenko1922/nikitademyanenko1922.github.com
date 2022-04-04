@@ -1,0 +1,16 @@
+#body {
+    background-color: gray;
+}
+#form {
+    text-align: center;
+    margin: 20px;
+}
+.form-control:focus {
+    color: red;
+    background-color: white;
+    border-color: red;
+    outline: 0;
+}
+.error {
+    border: 2px solid red;
+}

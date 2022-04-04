@@ -1,0 +1,86 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body id="body">
+<div>
+    <form id="form" action="" method="POST" accept-charset="UTF-8" >
+    <div>
+      <label><br />
+        Имя:<br />       
+        <input class="form-control" name="fio" />
+      </label><br />
+      </div>
+      <div>
+      <label><br />
+      Email:<br />     
+      <input class="form-control" name="email" type="email" />
+    </label><br />
+      </div>
+      <div>
+      <label><br />
+      Дата:<br />      
+      <input class="form-control" name="date" type="date" />
+    </label><br />
+      </div>
+      <div>
+      Пол:<br />
+      <label>
+          <input id="rad" type="radio" checked="checked"
+                 name="radio-group-1" value="M" />
+          Муж
+      </label>
+      <label>
+          <input type="radio"
+                 name="radio-group-1" value="F" />
+          Жен
+      </label><br />
+    </div>
+    <div>
+      Число Конечностей:<br />
+      <label>
+          <input type="radio" name="radio-group-2" value="0" />0
+      </label>
+      <label>
+          <input type="radio" name="radio-group-2" value="1" />1
+      </label>
+      <label>
+          <input type="radio" name="radio-group-2" value="2" />2
+      </label>
+      <label>
+          <input type="radio" name="radio-group-2" value="3" />3
+      </label>
+      <label>
+          <input type="radio" name="radio-group-2" value="4" />4
+      </label><br />
+    </div>
+    <div>
+      <label>
+          Сверхспособности:
+          <br />
+          <select name="field-name-3[]"
+                  multiple="multiple">
+              <option value="Значение1">Бессмертие</option>
+              <option value="Значение2">Прохождение сквозь стены</option>
+              <option value="Значение3">Левитация</option>
+          </select>
+      </label><br />
+    </div>
+      <div>
+      <label><br />
+      Биография:<br />
+       <textarea class="form-control" name="bio" ></textarea>
+      </label><br />
+      </div>
+      <div>
+      <label><br />
+      Подпись: <input id="checkbox" type="checkbox" name="check" required />
+    </label><br />
+  </div>
+  <div>
+      <label>Отправить форму: <input type="submit" value="ok" /></label>
+    </div>
+    </form>
+</div>
+</body>
+</html>
