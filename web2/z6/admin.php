@@ -5,9 +5,9 @@ head>
 </head>
 
 <?php
-$db_user = 'u47560';
-$db_pass = '7678381';
-$db = new PDO('mysql:host=localhost;dbname=u47560', $db_user, $db_pass, array(
+$db_user = 'u47557';
+$db_pass = '8106867';
+$db = new PDO('mysql:host=localhost;dbname=u47557', $db_user, $db_pass, array(
     PDO::ATTR_PERSISTENT => true
 ));
 $login = isset($_SERVER['PHP_AUTH_USER']) ? $_SERVER['PHP_AUTH_USER'] : '';
@@ -103,6 +103,7 @@ function form($db){
 	  <input type="radio" value="female" name='gender'>женский<br />
   
   <label>Конечности:</label>
+	  <input type="radio" name='limbs' value='0'>0
 	  <input type="radio" name='limbs' value='1'>1
 	  <input type="radio" name='limbs' value='2'>2
 	  <input type="radio" name='limbs' value='3'>3
