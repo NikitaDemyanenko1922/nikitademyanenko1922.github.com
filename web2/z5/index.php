@@ -104,9 +104,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   // ранее в сессию записан факт успешного логина.
   //print_r(empty($_SESSION['login']).' '.$_COOKIE[session_name()].' '.empty($_SESSION['uid']));
   if (!$error and !empty($_COOKIE[session_name()]) and !empty($_SESSION['login'])) {
-    $user = 'u47560';
-    $pass = '7678381';
-    $db2 = new PDO('mysql:host=localhost;dbname=u47560', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
+    $user = 'u47557';
+    $pass = '8106867';
+    $db2 = new PDO('mysql:host=localhost;dbname=u47557', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
     try{
       $get=$db2->prepare("select * from application where id=?");
       $get->bindParam(1,$_SESSION['uid']);
