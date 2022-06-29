@@ -77,7 +77,7 @@
  				print('Error : ' . $e->getMessage());
   			exit();
 		}
-		print_r("Succesfully added new stuff, ");
+		print_r("Новые материалы успешно добавлены, ");
 	}
 
 ?>
