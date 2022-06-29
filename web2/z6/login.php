@@ -41,8 +41,8 @@ function change_pass($db){session_start();
 
 session_start();
 
-$db_user = 'u47560';
-$db_pass = '7678381';
+$db_user = 'u47557';
+$db_pass = '8106867';
 
 if ($_SERVER['REQUEST_METHOD'] == 'GET') {
   if(isset($_GET['do'])&&$_GET['do'] == 'logout'){
@@ -77,7 +77,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
 }
 
 else {
-  $db = new PDO('mysql:host=localhost;dbname=u47560', $db_user, $db_pass, array(
+  $db = new PDO('mysql:host=localhost;dbname=u47557', $db_user, $db_pass, array(
     PDO::ATTR_PERSISTENT => true
   ));
 
