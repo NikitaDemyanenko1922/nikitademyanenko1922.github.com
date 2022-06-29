@@ -7,12 +7,6 @@
 </head>
 
 <body>
-    <header>
-            <div>
-                <img id="image" src="logo.png" alt="logo" />
-                <div id="name">Form</div>
-            </div>
-    </header>
             <form action="/"
                   method="POST">
 
