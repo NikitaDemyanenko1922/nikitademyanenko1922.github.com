@@ -54,6 +54,9 @@
 	  <label 
         <?php if(isset($_COOKIE['limbs_error'])) print 'class="error_check"'?>><b>Количество конечностей:</b>
       </label><br />
+	<input type="radio" id="0" name="limbs" value="0" 
+        <?php if (isset($values['limbs'])&&$values['limbs'] == '0') print("checked"); ?>>
+        0
       <input type="radio" id="1" name="limbs" value="1" 
         <?php if (isset($values['limbs'])&&$values['limbs'] == '1') print("checked"); ?>>
         1
