@@ -1,8 +1,8 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 
-  $user = 'u47560';
-  $pass = '7678381';
+  $user = 'u47557';
+  $pass = '8106867';
   $db = new PDO('mysql:host=localhost;dbname=u47560', $user, $pass, array(PDO::ATTR_PERSISTENT => true));
 
   if ($_SERVER['REQUEST_METHOD'] == 'GET') {
@@ -77,7 +77,6 @@ header('Content-Type: text/html; charset=UTF-8');
     '1' => "1",
     '2' => "2",
 	'3' => "3",
-	'4' => "4",
   );
   
 if(!empty($_COOKIE['super_value'])) {
